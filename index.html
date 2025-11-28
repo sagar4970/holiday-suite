@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Holiday Suite – Luxury Party Farmhouse</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    :root { --gold: #D4AF37; }
+    .text-gold { color: var(--gold); }
+    .bg-gold { background: var(--gold); }
+  </style>
+</head>
+
+<body class="bg-[#1A1A1A] text-white antialiased">
+
+  <!-- Header -->
+  <header class="max-w-7xl mx-auto px-6 py-8">
+    <nav class="flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 rounded-lg bg-white/10 flex items-center justify-center text-gold font-bold">HS</div>
+        <div>
+          <h1 class="text-xl font-semibold">Holiday Suite</h1>
+          <p class="text-xs text-white/60">Luxury Party Farmhouse • Pool Villa Stay</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <a href="https://bio.link/holidaysuite" target="_blank"
+          class="px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition">Details</a>
+
+        <a href="https://bio.link/holidaysuite" target="_blank"
+          class="px-4 py-2 rounded-lg bg-gold text-black font-semibold">Book Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative">
+    <div class="absolute inset-0 bg-gradient-to-b from-black/40 to-black/60 pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center py-12">
+
+        <div class="space-y-6 z-10">
+          <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">
+            Luxury Stay • Private Pool • Party Lounge • Hill View Retreat
+          </h2>
+
+          <p class="text-white/70 max-w-xl">
+            Holiday Suite offers designer bedrooms, an indoor private pool, lush garden and panoramic hill views — the perfect
+            destination for parties, weekend getaways and celebrations.
+          </p>
+
+          <div class="flex gap-4">
+            <a href="https://bio.link/holidaysuite" target="_blank"
+              class="px-6 py-3 rounded-lg bg-gold text-black font-semibold">Book Now</a>
+
+            <a href="#gallery"
+              class="px-6 py-3 rounded-lg bg-white/5 hover:bg-white/10 transition">View Gallery</a>
+          </div>
+
+          <div class="flex gap-4 text-sm text-white/60 mt-4">
+            <span>🎉 Perfect for Parties</span>
+            <span>👪 Family Trips</span>
+            <span>🎂 Birthdays & Night Outs</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="grid grid-cols-1 gap-4">
+            <img src="images/room-blue.png" class="w-full h-64 rounded-2xl object-cover shadow-2xl">
+
+            <div class="grid grid-cols-2 gap-4">
+              <img src="images/pool-night.png" class="h-40 rounded-2xl object-cover shadow-lg">
+              <img src="images/garden.png" class="h-40 rounded-2xl object-cover shadow-lg">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="max-w-6xl mx-auto px-6 py-12" id="about">
+    <div class="grid lg:grid-cols-2 gap-8 items-center">
+
+      <div class="p-8 rounded-2xl bg-white/5 backdrop-blur-md border border-white/5">
+        <h3 class="text-2xl font-semibold">About Holiday Suite</h3>
+
+        <p class="mt-4 text-white/70">
+          A premium farmhouse retreat featuring designer bedrooms, indoor temperature-controlled pool, hill-facing views and a peaceful outdoor
+          lounge area — the perfect stay for celebrations.
+        </p>
+
+        <ul class="mt-6 grid grid-cols-2 gap-3 text-sm">
+          <li>• Private indoor pool</li>
+          <li>• Designer bedrooms</li>
+          <li>• Lush garden</li>
+          <li>• Hill view & parking</li>
+        </ul>
+      </div>
+
+      <img src="images/pool-view.png" class="w-full h-72 rounded-2xl object-cover shadow-2xl">
+
+    </div>
+  </section>
+
+  <!-- Rooms -->
+  <section class="max-w-7xl mx-auto px-6 py-12" id="rooms">
+    <h3 class="text-2xl font-semibold mb-6">Rooms & Suites</h3>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <!-- Blue Room -->
+      <div class="bg-white/5 p-4 rounded-2xl border border-white/5">
+        <img src="images/room-blue.png" class="w-full h-48 rounded-lg object-cover">
+        <h4 class="text-lg mt-4 font-semibold">Blue Room</h4>
+        <p class="text-white/70 text-sm mt-2">King-size bed • Premium interior • AC • Luxury finish</p>
+      </div>
+
+      <!-- Pink Room -->
+      <div class="bg-white/5 p-4 rounded-2xl border border-white/5">
+        <img src="images/room-red.png" class="w-full h-48 rounded-lg object-cover">
+        <h4 class="text-lg mt-4 font-semibold">Pink Room</h4>
+        <p class="text-white/70 text-sm mt-2">Designer accents • AC • LED lighting • King-size bed</p>
+      </div>
+
+      <!-- Grey Room -->
+      <div class="bg-white/5 p-4 rounded-2xl border border-white/5">
+        <img src="images/room-grey.png" class="w-full h-48 rounded-lg object-cover">
+        <h4 class="text-lg mt-4 font-semibold">Grey Room</h4>
+        <p class="text-white/70 text-sm mt-2">Modern decor • AC • Ensuite washroom</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pool -->
+  <section class="max-w-7xl mx-auto px-6 py-12" id="pool">
+    <div class="grid lg:grid-cols-2 gap-8 items-center">
+
+      <div>
+        <h3 class="text-2xl font-semibold">Private Pool</h3>
+        <p class="text-white/70 mt-3">
+          Indoor private pool with temperature control, party lights and full privacy.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4">
+        <img src="images/pool2.png" class="h-44 rounded-2xl object-cover shadow-lg">
+        <img src="images/pool-day.png" class="h-44 rounded-2xl object-cover shadow-lg">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Garden -->
+  <section class="max-w-7xl mx-auto px-6 py-12" id="garden">
+    <div class="grid lg:grid-cols-2 gap-6 bg-white/5 p-4 border border-white/5 rounded-2xl">
+
+      <img src="images/garden2.png" class="w-full h-64 rounded-xl object-cover shadow-lg">
+
+      <div>
+        <h3 class="text-2xl font-semibold">Garden & Outdoor Lounge</h3>
+        <p class="text-white/70 mt-3">Open sitting, barbecue-friendly and nature-facing view.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="max-w-7xl mx-auto px-6 py-12" id="gallery">
+    <h3 class="text-2xl font-semibold mb-6">Gallery</h3>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <img src="images/room-blue.png" class="h-40 rounded-lg object-cover">
+      <img src="images/pool-night.png" class="h-40 rounded-lg object-cover">
+      <img src="images/room-red.png" class="h-40 rounded-lg object-cover">
+      <img src="images/pool-day.png" class="h-40 rounded-lg object-cover">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="max-w-7xl mx-auto px-6 py-12" id="contact">
+    <div class="grid lg:grid-cols-2 gap-8">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18" class="w-full h-80 rounded-2xl border border-white/10"></iframe>
+
+      <div class="bg-white/5 rounded-2xl p-6 border border-white/10">
+        <h3 class="text-2xl font-semibold">Contact Us</h3>
+
+        <div class="mt-6 flex flex-col gap-3">
+          <a href="https://wa.me/919999999999" class="px-4 py-3 bg-white/10 rounded-lg">WhatsApp</a>
+          <a href="tel:+919999999999" class="px-4 py-3 bg-gold text-black rounded-lg font-semibold">Call Now</a>
+          <a href="https://bio.link/holidaysuite" class="px-4 py-3 bg-white/10 rounded-lg" target="_blank">More Details</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 mt-12 py-8 text-center text-white/60">
+    © 2025 Holiday Suite. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
